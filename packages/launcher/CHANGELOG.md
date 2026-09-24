@@ -1,5 +1,11 @@
 # @magnitudedev/cli
 
+## 0.1.6
+
+### Patch Changes
+
+- [#125](https://github.com/magnitudedev/magnitude/pull/125) [`fd37123`](https://github.com/magnitudedev/magnitude/commit/fd37123a374ee4931a0f2bb28e6b3cb091a6d601) Thanks [@Nitish-1303](https://github.com/Nitish-1303)! - Gate remote callers in the /rpc and inference route handlers instead of the middleware, so case, slash, and percent-encoded path variants can no longer skip the API key check.
+
 ## 0.1.5
 
 ### Patch Changes
